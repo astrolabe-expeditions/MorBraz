@@ -1,0 +1,10 @@
+# Jupyter Book
+.ipynb_checkpoints/
+*/.ipynb_checkpoints
+
+# Environment
+venv/
+
+# Data
+input/*
+output/*
