@@ -25,8 +25,13 @@ The notebook allows you to merge and interpolate data from the onboard instrumen
 2. **Create a Python virtual environment:**
 
    ```bash
-   virtualenv venv
+   python -m venv venv
    source venv/bin/activate
+   ```
+
+   For Windows with Powershell
+   ```
+   .\venv\Scripts\Activate.ps1
    ```
 
    If `virtualenv` is not installed, follow the [documentation](https://python-guide-pt-br.readthedocs.io/fr/latest/dev/virtualenvs.html#virtualenv).
@@ -49,6 +54,14 @@ The notebook allows you to merge and interpolate data from the onboard instrumen
 
 ## Usage
 
+1. Launch Virtual Environnement
+   ```
+   .\venv\Scripts\Activate.ps1
+   ```
+2. Start Jupyter Notebook
+   ```
+   jupyter notebook
+   ```
 1. Place your data files in the `input` folder.
 2. Update the variables in the notebook to match your file names.
 3. Run the notebook cell by cell.
