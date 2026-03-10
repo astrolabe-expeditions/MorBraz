@@ -10,3 +10,5 @@ input/*
 !input/.gitkeep
 output/*
 !output/.gitkeep
+
+desktop.ini
