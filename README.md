@@ -24,49 +24,62 @@ The notebook allows you to merge and interpolate data from the onboard instrumen
 
 2. **Create a Python virtual environment:**
 
+If `virtualenv` is not installed, follow the [documentation](https://python-guide-pt-br.readthedocs.io/fr/latest/dev/virtualenvs.html#virtualenv).
+
    ```bash
    python -m venv venv
-   source venv/bin/activate
    ```
 
+1. **Launch Virtual Environnement:**
+
    For Windows with Powershell
-   ```
+
+   ```bash
    .\venv\Scripts\Activate.ps1
    ```
 
-   If `virtualenv` is not installed, follow the [documentation](https://python-guide-pt-br.readthedocs.io/fr/latest/dev/virtualenvs.html#virtualenv).
+   Or for Unix based system (Linux, macOS)
 
-3. **Install dependencies:**
+   ```bash
+   source venv/bin/activate
+   ```
+
+2. **Install dependencies:**
 
    ```bash
    pip install -r requirements.txt
    pip install notebook
    ```
 
-4. **Start Jupyter Notebook:**
+## Usage
+
+1. **Launch Virtual Environnement:**
+
+   For Windows with Powershell
+
+   ```bash
+   .\venv\Scripts\Activate.ps1
+   ```
+
+   Or for Unix based system (Linux, macOS)
+
+   ```bash
+   source venv/bin/activate
+   ```
+
+2. **Start Jupyter Notebook:**
 
    ```bash
    jupyter notebook
    ```
 
-5. **Open the notebook file:**
+3. **Open the notebook file:**
    - In your browser, open `interpolate_data_with_track.ipynb`.
-
-## Usage
-
-1. Launch Virtual Environnement
-   ```
-   .\venv\Scripts\Activate.ps1
-   ```
-2. Start Jupyter Notebook
-   ```
-   jupyter notebook
-   ```
-1. Place your data files in the `input` folder.
-2. Update the variables in the notebook to match your file names.
-3. Run the notebook cell by cell.
-4. Check the exported result in the `output` folder.
-5. Save the generated file wherever you need.
+4. Place your data files in the `input` folder.
+5. Update the variables in the notebook to match your file names.
+6. Run the notebook cell by cell.
+7. Check the exported result in the `output` folder.
+8. Save the generated file wherever you need.
 
 ## Folder Structure
 
